@@ -12,7 +12,7 @@ class ItemAdmin(admin.ModelAdmin):
 
 class TaxCreateForm(forms.ModelForm):
     """
-    Custom Tax creation form, removed tax_rate(created automatically)
+    Custom Tax creation form, removed tax_rate(created automatically).
     """
     class Meta:
         model = Tax
